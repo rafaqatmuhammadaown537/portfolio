@@ -1,6 +1,6 @@
 # Muhammad Aown Rafaqat — Portfolio
 
-A hand-built multi-page portfolio website. No frameworks, no templates: plain HTML, CSS and JavaScript.
+A multi-page portfolio website. No frameworks, no templates: plain HTML, CSS and JavaScript.
 
 **Live site:** https://rafaqatmuhammadaown537.github.io/portfolio/
 
