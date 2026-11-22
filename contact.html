@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Muhammad Aown Rafaqat</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__brand" href="index.html">MAR<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a class="btn btn--small" href="https://www.linkedin.com/in/muhammad-aown-rafaqat-1a7705451/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Hiring, freelance work, or just want to say hello. All messages welcome.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="split__main">
+          <form class="form" id="contactForm" novalidate>
+            <div class="form__row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required minlength="2" placeholder="Your name" />
+              <p class="form__error" data-error-for="name">Please enter your name.</p>
+            </div>
+            <div class="form__row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com" />
+              <p class="form__error" data-error-for="email">Please enter a valid email address.</p>
+            </div>
+            <div class="form__row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required minlength="10" placeholder="What can I help with?"></textarea>
+              <p class="form__error" data-error-for="message">Please write at least a sentence.</p>
+            </div>
+            <button class="btn" type="submit">Send message</button>
+            <p class="form__success" id="formSuccess" hidden>Thanks! Your message is ready to send. This opens your email app with everything filled in.</p>
+          </form>
+        </div>
+        <aside class="split__side">
+          <div class="panel">
+            <h3>Direct</h3>
+            <ul class="contact-list">
+              <li><a href="https://www.linkedin.com/in/muhammad-aown-rafaqat-1a7705451/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://github.com/rafaqatmuhammadaown537" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://wa.me/923212902295" target="_blank" rel="noopener">WhatsApp</a></li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Availability</h3>
+            <p>Open to full-time roles and freelance projects. Remote worldwide, on-site in Rawalpindi and Islamabad.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Muhammad Aown Rafaqat</p>
+      <div class="footer__links">
+        <a href="https://github.com/rafaqatmuhammadaown537" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/muhammad-aown-rafaqat-1a7705451/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

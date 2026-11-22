@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Muhammad Aown Rafaqat</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav__brand" href="index.html">MAR<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="btn btn--small" href="https://www.linkedin.com/in/muhammad-aown-rafaqat-1a7705451/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="container">
+        <h1>Projects</h1>
+        <p>Built in public. Every project here has code you can read on GitHub.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid--2">
+        <article class="card card--project">
+          <div class="card__badge">Live</div>
+          <h3>This website</h3>
+          <p class="card__org">HTML · CSS · JavaScript</p>
+          <p>A fully hand-built multi-page portfolio: responsive layout, mobile navigation, validated contact form. Designed and coded from scratch, no frameworks, no templates.</p>
+          <div class="card__links">
+            <a href="index.html">View live</a>
+            <a href="https://github.com/rafaqatmuhammadaown537" target="_blank" rel="noopener">Source</a>
+          </div>
+        </article>
+        <article class="card card--project card--coming">
+          <div class="card__badge card__badge--muted">In progress</div>
+          <h3>Next project</h3>
+          <p class="card__org">Full stack</p>
+          <p>A web application that works end to end: interface, logic and data. Currently in the build queue.</p>
+        </article>
+        <article class="card card--project card--coming">
+          <div class="card__badge card__badge--muted">Planned</div>
+          <h3>Third project</h3>
+          <p class="card__org">Programming</p>
+          <p>A tool solving a real problem I've watched first-hand from my marketing and content work.</p>
+        </article>
+        <article class="card card--project card--coming">
+          <div class="card__badge card__badge--muted">Planned</div>
+          <h3>Fourth project</h3>
+          <p class="card__org">Programming</p>
+          <p>Something with data: collecting it, storing it, showing it usefully.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Muhammad Aown Rafaqat</p>
+      <div class="footer__links">
+        <a href="https://github.com/rafaqatmuhammadaown537" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/muhammad-aown-rafaqat-1a7705451/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
