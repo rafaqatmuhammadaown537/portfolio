@@ -1,6 +1,6 @@
 # Muhammad Aown Rafaqat — Portfolio
 
-A multi-page portfolio website. No frameworks, no templates: plain HTML, CSS and JavaScript.
+A multi-page portfolio website built with plain HTML, CSS and JavaScript.
 
 **Live site:** https://rafaqatmuhammadaown537.github.io/portfolio/
 
@@ -9,13 +9,13 @@ A multi-page portfolio website. No frameworks, no templates: plain HTML, CSS and
 - **index.html** — home, experience highlights
 - **about.html** — story, education, skills
 - **projects.html** — project showcase
-- **contact.html** — contact form with client-side validation
+- **contact.html** — contact details and direct email
 
 ## Built with
 
 - Semantic HTML5
 - Modern CSS (custom properties, grid, flexbox, responsive down to mobile)
-- Vanilla JavaScript (mobile nav, form validation, mailto handoff)
+- Vanilla JavaScript (mobile nav)
 
 ## Structure
 
